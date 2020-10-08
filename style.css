@@ -40,6 +40,7 @@ h1 {
 
 h4 {
     text-transform: uppercase;
+    letter-spacing: 2px;
     margin-bottom: .3rem;
 }
 
@@ -49,8 +50,26 @@ h5 {
 }
 
 @media (min-width: 768px) {
-    #color1, #color2 {    
-        width: 60px;
-        height: 30px;
+    h1, input {
+        margin-bottom: 3.5rem;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    h4 {
+        margin-bottom: .5rem;
+        font-size: 1.3rem;
+    }
+
+    h5 {
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 992px) {
+    h1 {
+        font-size: 4rem;
     }
 }
